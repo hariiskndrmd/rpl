@@ -1,0 +1,357 @@
+body{
+	font-family: 'Roboto';
+	background-color: #f1f1f1;
+}
+.dropdown .dropdown-menu {
+	border-radius:0;
+}
+
+.active2{
+	color: #e67e22;
+}
+
+.nav-item{
+	color: white;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.bg-nav-1{
+	background-color: #3b5998;
+}
+
+.nav2{
+	color: white;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+	margin-right: 30px;
+   }
+
+.carousel{
+	z-index: 0;
+}
+.carousel img{
+	height: 200px;
+	object-fit: cover;
+	background-size: cover;
+}
+
+.text-judul{
+	font-family: 'Poppins';
+	font-weight: bold;
+	margin-top: 60px;
+}
+.text-judul2{
+	font-family: 'Poppins';
+	font-weight: bold;
+}
+
+.text-1{
+	color:#e67e22;
+}
+
+.bg-color-1{
+	background-color: #a5b1c2;
+	/* background-color: #0984e3; */
+}
+
+.garis{
+	width: 8%;
+	height: 8px;
+	background-color: #e67e22;
+	border-radius: 5px;
+}
+
+.btn-color-1{
+	background-color: #3b5998;
+	color:white;
+	font-size: 15px;
+	font-family: 'Poppins';
+}
+
+.warna3{
+	color:white;
+}
+
+.fakta{
+	background-color: #1e272e;
+}
+
+
+.fakta .informasi{
+	text-align: center;
+}
+
+.isi-informasi{
+	font-family: 'Poppins';
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.ngajak{
+	text-transform: uppercase;
+	font-size: 55px;
+	margin-top: 20px;
+	color: #192a56;
+}
+
+.ngajak2{
+	font-size: 30px;
+	font-weight: 600;
+	color: #192a56;
+}
+
+.figu::after{
+	content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+}
+
+.figu img{
+	background-size: cover;
+    background-position: center;
+	box-sizing: border-box;
+	position: relative;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+}
+
+.caption{
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	font-size: 18px;
+	z-index: 1;
+	color: white;
+	font-weight: bold;
+}
+
+.title-text{
+	color:white;
+	z-index: 1;
+	position: relative;
+}
+
+.title-text .display-4{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.jumbot{
+	background-image: url(../image/homeSmk2.jpg);
+	object-fit: cover;
+	background-size: cover;
+	width: 100%;
+    height: 350px;
+    position: relative;
+	z-index: 0;
+}
+
+.jumbot::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+	background-color: black;
+	opacity: 0.5;
+    position: absolute;
+	bottom: 0;
+	z-index: 1;
+}
+
+.berita-foto img{
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.berita-card img{
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.judul-berita{
+	position: relative;
+	z-index: 2;
+	color: white;
+    margin-top: 90px;
+    font-weight: 900;
+    font-size: 60px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	font-family: 'Poppins';
+	line-height: 60px;
+	letter-spacing: 2px;
+}
+
+.garis3{
+	height: 8px;
+	width: 70%;
+	float: left;
+	margin-top: -20px;
+	background-color:#e67e22;
+	position: relative;
+	z-index: 2;
+	border-radius: 10px;
+}
+
+.judul-2{
+	font-family: 'Poppins';
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.caption-2{
+	font-size: 20px;
+}
+
+.garis-2{
+	background-color: rgb(63, 63, 63);
+}
+
+.angka-c{
+	color: #e67e22;
+}
+
+.aka-row{
+	padding: 30px;
+}
+
+.visi{
+	background-color: #1e272e;
+}
+
+.visi img{
+	width: 90%;
+	border-radius: 20px;
+}
+
+.kata{
+	color: white;
+	float: left;
+}
+
+.kata1{
+	font-family: 'Poppins';
+}
+
+.kata2{
+	font-family: 'Poppins';
+	border-bottom: 3px solid white;
+}
+
+.apa-itu img{
+	width: 100%;
+	border-radius: 20px;
+}
+
+.apa-1{
+	color: #3b5998;
+	font-family: 'Poppins';
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.garis4{
+	height: 8px;
+	width: 20%;
+	float: left;
+	background-color:#e67e22;
+	border-radius: 10px;
+}
+
+.apa-2{
+	font-size: 18px;
+}
+
+.isi-gambar::after{
+	content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+	background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+	opacity: 0.5;
+    position: absolute;
+	bottom: 0;
+	z-index: 1;
+}
+
+.isi-gambar{
+	position: relative;
+}
+
+.isi-gambar img{
+	object-fit: cover;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.bottomleft {
+	z-index: 2;
+	color: white;
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+	font-size: 18px;
+  }
+
+  .card-judul:hover{
+	  color: #e67e22;
+	  text-decoration: none;
+  }
+
+
+@media (min-width: 992px) {
+	.nav-item{
+		margin-right: 30px;
+		padding: 20px;
+	}
+
+	#navigation-bar a {
+        text-decoration: none;
+        position: relative;
+        transition: all 0.4s ease;
+     }
+    #navigation-bar a::before {
+        content: "";
+        transition: all 0.4s ease-in-out;
+        position: absolute;
+        right: 50%;
+        left: 50%;
+        bottom: 0;
+        height: 2px;
+        color: white;
+        background-color: #e67e22;
+    }
+    #navigation-bar a:hover::before {
+        right: 0;
+        left: 0;
+        color: white;
+    }
+
+    #navigarion-bar a:hover{
+        color: white;
+    }
+	.nav2:hover{
+		color:white;
+		text-decoration: none;
+	}
+	.berita:hover{
+		box-shadow: 4,4,4,4 black;
+	}
+	.carousel img{
+		height: 590px;
+		display: block;
+		object-fit: cover;
+	}
+}
+  
